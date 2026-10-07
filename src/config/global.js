@@ -36,27 +36,59 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Patronaje industrial y entorno',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Procedimiento y entorno en el patronaje industrial',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Trazo de la base superior femenina: descripción y medidas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Análisis y trazo de sistema de ajuste (pinzas y cortes)',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Trazado del básico inferior (femenino)',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Ajuste de las bases para prendas interiores (tejido de punto)',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Patronaje de prendas interiores femeninas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipologías principales de prendas inferiores íntimas',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipologías principales de prendas superiores íntimas',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Información técnica de los patrones',
         desarrolloContenidos: true,
       },
     ],

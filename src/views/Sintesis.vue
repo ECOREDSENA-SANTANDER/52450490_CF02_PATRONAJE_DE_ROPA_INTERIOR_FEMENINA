@@ -15,6 +15,7 @@
           .anexo__texto
             p Anexo. Síntesis
 
+
 </template>
 
 <script>
